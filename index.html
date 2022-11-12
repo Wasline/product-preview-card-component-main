@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/a7b822cf68.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+  <main>
+    <section>
+      <img srcset="images/image-product-desktop.jpg 600w, images/image-product-mobile.jpg 686w"
+        sizes="(max-width: 600px) 686px, 300px" src="images/image-product-desktop.jpg" alt="A bottle of perfume">
+      <div class="description">
+        <span class="category">Perfume</span>
+        <h1>Gabrielle Essence Eau De Parfum </h1>
+        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
+        <div class="prices">
+          <span class="sale-price">$149.99</span>
+          <span class="regu-price">$169.99</span>
+        </div>
+        <button><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.waslinesaintfleur.com">Wasline Saint Fleur</a>
+  </footer>
+</body>
+
+</html>
