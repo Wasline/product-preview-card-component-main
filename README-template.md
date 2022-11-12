@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](./screenshot.jpg)
 
 
 ### Links
 
-- Solution URL:[](https://github.com/Wasline/product-preview-card-component-main)
-- Live Site URL:[](https://sensational-daifuku-008f3d.netlify.app/)
+- Solution URL:[solution URL](https://github.com/Wasline/product-preview-card-component-main)
+- Live Site URL:[live site](https://sensational-daifuku-008f3d.netlify.app/)
 
 ## My process
 
